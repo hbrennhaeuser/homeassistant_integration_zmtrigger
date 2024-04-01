@@ -1,6 +1,5 @@
 # Trigger ZoneMinder alarm
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration) ![hacs_validation](https://github.com/hbrennhaeuser/homeassistant_integration_zmtrigger/actions/workflows/hacs_validation.yml/badge.svg?branch=main) ![validate_with_hassfest](https://github.com/hbrennhaeuser/homeassistant_integration_zmtrigger/actions/workflows/validate_with_hassfest.yml/badge.svg?branch=main)
 This custom component allows you to trigger an ZoneMinder alarm.
 
 This component is best used to trigger an alarm for X seconds (e.g. on+10).
