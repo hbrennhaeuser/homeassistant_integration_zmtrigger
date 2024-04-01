@@ -1,0 +1,21 @@
+{
+  "domain": "zmtrigger",
+  "name": "zmtrigger",  
+  "bluetooth": [],
+  "codeowners": ["@hbrennhaeuser"] ,
+  "config_flow": false,
+  "dependencies": [],
+  "dhcp": [],
+  "documentation": "https://github.com/hbrennhaeuser/homeassistant_integration_zmtrigger",
+  "homekit": {},
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/hbrennhaeuser/homeassistant_integration_zmtrigger/issues",
+  "loggers":[],
+  "mqtt": [],
+  "requirements": [],
+  "ssdp": [],
+  "usb": [],
+  "version": "0.1.0",
+  "zeroconf": []
+}
