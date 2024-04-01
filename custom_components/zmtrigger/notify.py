@@ -122,7 +122,7 @@ class ZmtriggerNotificationService(BaseNotificationService):
         if action is None:
             raise SyntaxError('Action is required!')
 
-        if not re.match(r'^(on|off)(\+[0-9]+)?)|(cancel|show)$', action):
+        if not re.match(r'^((on|off)(\+[0-9]+)?)|(cancel|show)$', action):
             raise ValueError('Invalid action specified!')
 
         if score is None:
